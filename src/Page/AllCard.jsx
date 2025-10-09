@@ -1,9 +1,12 @@
 import React from 'react';
 import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
+import { Link } from 'react-router';
 const AllCard = ({prev}) => {
    
     return (
+               <Link to={`/appsDetails/${prev.id}`}>
+               
                <div className="card w-full  bg-gray-100 p-5 hover:scale-110 transition ease-in-out  shadow-xs">
           <figure className='shadow-xl'>
             <img className='h-96 object-fill w-full rounded-3xl '
@@ -39,6 +42,7 @@ const AllCard = ({prev}) => {
             
           </div>
         </div>
+               </Link>
     );
 };
 

@@ -4,12 +4,12 @@ import { FaStar } from "react-icons/fa";
 
 
 const AppsCard = ({prev}) => {
-    console.log(prev)
+   
 
     
     return (
-       <div className="card w-full  bg-[#FFFFFF] p-5 hover:scale-110 transition ease-in-out  shadow-xs">
-  <figure className='shadow-xl'>
+       <div className="card w-full   p-5 hover:scale-110 transition ease-in-out  shadow-xs">
+  <figure className=''>
     <img className='h-96 object-fill w-full rounded-3xl '
       src={prev.image}
       alt="Shoes" />
