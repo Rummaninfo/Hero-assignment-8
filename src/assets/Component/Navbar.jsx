@@ -1,7 +1,12 @@
 import React from 'react';
 import { NavLink,Link } from 'react-router';
 import hero from '../img/logo.png';
-
+import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { FaHome } from "react-icons/fa";
+import { FaAppStore } from "react-icons/fa";
+import { MdOutlineInstallDesktop } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
+import './Navbar.css';
 
 const Navbar = () => {
     return (
@@ -37,16 +42,28 @@ const Navbar = () => {
 
     {/* --- Center: Main Menu (visible on large screens) --- */}
     <div className="hidden lg:flex">
-      <ul className="menu menu-horizontal font-medium px-1 space-x-4">
-        <li><NavLink to="/home">Home</NavLink></li>
-        <li><NavLink to="/apps">Apps</NavLink></li>
-        <li><NavLink to="/install">Install</NavLink></li>
+      <ul className=" font-medium px-1 flex space-x-4">
+        {/* <li><NavLink to="/home"> <FaHome />
+ Home</NavLink></li> */}
+
+ <NavLink to="/home"> <li className='flex items-center gap-2'> <FaHome />Home</li> </NavLink> 
+
+        {/* <li><NavLink to="/apps"> <FaAppStore />
+ Apps</NavLink></li> */}
+           <NavLink to="/apps"> <li className='flex items-center gap-2'> <FaAppStore />  Apps</li> </NavLink>  
+        
+        {/* <li><NavLink > 
+ Install</NavLink></li> */}
+            <NavLink to="/install"> <li className='flex items-center gap-2'> <span><MdOutlineInstallDesktop /></span>  Install</li> </NavLink>
+
       </ul>
     </div>
 
     {/* --- Right: Button --- */}
     <div>
       <NavLink to="/products" className="btn">
+      <FaGithub />
+
         Contribute
       </NavLink>
     </div>

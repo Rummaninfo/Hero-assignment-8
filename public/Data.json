@@ -1,0 +1,651 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1579566346927-c68383817a25?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "PhotoMaster Pro",
+    "companyName": "PixelPerfect Studios",
+    "id": 1001,
+    "description": "Advanced photo editing app with AI-powered filters and professional tools",
+    "size": 245,
+    "reviews": 12500,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 625 },
+      { "name": "2 star", "count": 1250 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 3750 },
+      { "name": "5 star", "count": 4375 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "FitBuddy Tracker",
+    "companyName": "HealthTech Solutions",
+    "id": 1002,
+    "description": "Comprehensive fitness tracker with workout plans and nutrition guidance",
+    "size": 189,
+    "reviews": 8900,
+    "ratingAvg": 4.5,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 445 },
+      { "name": "2 star", "count": 890 },
+      { "name": "3 star", "count": 1780 },
+      { "name": "4 star", "count": 2670 },
+      { "name": "5 star", "count": 3115 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "FinancePlus",
+    "companyName": "MoneyMatters Inc",
+    "id": 1003,
+    "description": "Personal finance manager with budget tracking and investment insights",
+    "size": 156,
+    "reviews": 6700,
+    "ratingAvg": 4.3,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 670 },
+      { "name": "2 star", "count": 670 },
+      { "name": "3 star", "count": 1340 },
+      { "name": "4 star", "count": 2010 },
+      { "name": "5 star", "count": 2010 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "TravelGuide Explorer",
+    "companyName": "Wanderlust Tech",
+    "id": 1004,
+    "description": "Your ultimate travel companion with offline maps and local recommendations",
+    "size": 312,
+    "reviews": 15300,
+    "ratingAvg": 4.8,
+    "downloads": 7800000,
+    "ratings": [
+      { "name": "1 star", "count": 306 },
+      { "name": "2 star", "count": 765 },
+      { "name": "3 star", "count": 1530 },
+      { "name": "4 star", "count": 4590 },
+      { "name": "5 star", "count": 8109 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "LanguagePro Learn",
+    "companyName": "Global Education Systems",
+    "id": 1005,
+    "description": "Learn new languages with interactive lessons and speech recognition",
+    "size": 278,
+    "reviews": 11200,
+    "ratingAvg": 4.6,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 560 },
+      { "name": "2 star", "count": 1120 },
+      { "name": "3 star", "count": 2240 },
+      { "name": "4 star", "count": 3360 },
+      { "name": "5 star", "count": 3920 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "RecipeBox Chef",
+    "companyName": "Culinary Creations LLC",
+    "id": 1006,
+    "description": "Discover and organize recipes with step-by-step cooking instructions",
+    "size": 134,
+    "reviews": 4200,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 840 },
+      { "name": "4 star", "count": 1260 },
+      { "name": "5 star", "count": 1470 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "MindSpace Meditation",
+    "companyName": "Wellness Digital",
+    "id": 1007,
+    "description": "Guided meditation and mindfulness exercises for stress relief",
+    "size": 198,
+    "reviews": 9800,
+    "ratingAvg": 4.9,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 98 },
+      { "name": "2 star", "count": 294 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 2940 },
+      { "name": "5 star", "count": 5488 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "TaskMaster Pro",
+    "companyName": "Productivity Labs",
+    "id": 1008,
+    "description": "Advanced task management with team collaboration features",
+    "size": 167,
+    "reviews": 7600,
+    "ratingAvg": 4.2,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 760 },
+      { "name": "2 star", "count": 760 },
+      { "name": "3 star", "count": 1520 },
+      { "name": "4 star", "count": 2280 },
+      { "name": "5 star", "count": 2280 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "MusicWave Studio",
+    "companyName": "Audio Innovations",
+    "id": 1009,
+    "description": "Create and mix music with professional digital audio tools",
+    "size": 423,
+    "reviews": 3400,
+    "ratingAvg": 4.1,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 680 },
+      { "name": "4 star", "count": 1020 },
+      { "name": "5 star", "count": 1020 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "WeatherPlus Pro",
+    "companyName": "Climate Data Systems",
+    "id": 1010,
+    "description": "Accurate weather forecasts with severe weather alerts and radar maps",
+    "size": 145,
+    "reviews": 21500,
+    "ratingAvg": 4.7,
+    "downloads": 8900000,
+    "ratings": [
+      { "name": "1 star", "count": 1075 },
+      { "name": "2 star", "count": 2150 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 6450 },
+      { "name": "5 star", "count": 7525 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "EbookHub Reader",
+    "companyName": "Digital Library Corp",
+    "id": 1011,
+    "description": "Your personal digital library with thousands of free ebooks",
+    "size": 189,
+    "reviews": 12800,
+    "ratingAvg": 4.5,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 640 },
+      { "name": "2 star", "count": 1280 },
+      { "name": "3 star", "count": 2560 },
+      { "name": "4 star", "count": 3840 },
+      { "name": "5 star", "count": 4480 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "ShopCart Deals",
+    "companyName": "E-Commerce Solutions",
+    "id": 1012,
+    "description": "Compare prices and find the best deals across multiple retailers",
+    "size": 223,
+    "reviews": 5900,
+    "ratingAvg": 4.0,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 590 },
+      { "name": "2 star", "count": 590 },
+      { "name": "3 star", "count": 1180 },
+      { "name": "4 star", "count": 1770 },
+      { "name": "5 star", "count": 1770 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "GameHub Arcade",
+    "companyName": "Entertainment Studios",
+    "id": 1013,
+    "description": "Collection of addictive casual games with daily challenges",
+    "size": 356,
+    "reviews": 18200,
+    "ratingAvg": 4.4,
+    "downloads": 6700000,
+    "ratings": [
+      { "name": "1 star", "count": 1820 },
+      { "name": "2 star", "count": 1820 },
+      { "name": "3 star", "count": 3640 },
+      { "name": "4 star", "count": 5460 },
+      { "name": "5 star", "count": 5460 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "NoteSync Pro",
+    "companyName": "Productivity Tools Inc",
+    "id": 1014,
+    "description": "Smart note-taking app with cloud sync and organizational features",
+    "size": 167,
+    "reviews": 8300,
+    "ratingAvg": 4.6,
+    "downloads": 3300000,
+    "ratings": [
+      { "name": "1 star", "count": 415 },
+      { "name": "2 star", "count": 830 },
+      { "name": "3 star", "count": 1660 },
+      { "name": "4 star", "count": 2490 },
+      { "name": "5 star", "count": 2905 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "SocialConnect",
+    "companyName": "Network Platforms",
+    "id": 1015,
+    "description": "Connect with friends and share moments with enhanced privacy controls",
+    "size": 289,
+    "reviews": 25600,
+    "ratingAvg": 4.2,
+    "downloads": 9500000,
+    "ratings": [
+      { "name": "1 star", "count": 2560 },
+      { "name": "2 star", "count": 2560 },
+      { "name": "3 star", "count": 5120 },
+      { "name": "4 star", "count": 7680 },
+      { "name": "5 star", "count": 7680 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "VideoFlow Editor",
+    "companyName": "Motion Media Labs",
+    "id": 1016,
+    "description": "Professional video editing app with 4K support and special effects",
+    "size": 512,
+    "reviews": 8700,
+    "ratingAvg": 4.6,
+    "downloads": 3800000,
+    "ratings": [
+      { "name": "1 star", "count": 435 },
+      { "name": "2 star", "count": 870 },
+      { "name": "3 star", "count": 1740 },
+      { "name": "4 star", "count": 2610 },
+      { "name": "5 star", "count": 3045 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "SleepWell Tracker",
+    "companyName": "Health & Wellness Tech",
+    "id": 1017,
+    "description": "Monitor your sleep patterns and get personalized improvement suggestions",
+    "size": 178,
+    "reviews": 6200,
+    "ratingAvg": 4.3,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1240 },
+      { "name": "4 star", "count": 1860 },
+      { "name": "5 star", "count": 1860 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "CodeMaster IDE",
+    "companyName": "Developer Tools Inc",
+    "id": 1018,
+    "description": "Advanced code editor with syntax highlighting and Git integration",
+    "size": 287,
+    "reviews": 5400,
+    "ratingAvg": 4.8,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 108 },
+      { "name": "2 star", "count": 270 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 1620 },
+      { "name": "5 star", "count": 2862 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556655848-f3a704976c1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "ArtCanvas Pro",
+    "companyName": "Creative Digital Arts",
+    "id": 1019,
+    "description": "Digital drawing and painting app with realistic brushes and tools",
+    "size": 334,
+    "reviews": 11300,
+    "ratingAvg": 4.7,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 565 },
+      { "name": "2 star", "count": 1130 },
+      { "name": "3 star", "count": 2260 },
+      { "name": "4 star", "count": 3390 },
+      { "name": "5 star", "count": 3955 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "PodcastWave Studio",
+    "companyName": "Audio Production Co",
+    "id": 1020,
+    "description": "Record, edit, and publish podcasts with professional audio tools",
+    "size": 298,
+    "reviews": 7800,
+    "ratingAvg": 4.4,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 390 },
+      { "name": "2 star", "count": 780 },
+      { "name": "3 star", "count": 1560 },
+      { "name": "4 star", "count": 2340 },
+      { "name": "5 star", "count": 2730 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "CalendarSync Pro",
+    "companyName": "Time Management Systems",
+    "id": 1021,
+    "description": "Smart calendar with cross-platform sync and intelligent scheduling",
+    "size": 156,
+    "reviews": 9200,
+    "ratingAvg": 4.5,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 460 },
+      { "name": "2 star", "count": 920 },
+      { "name": "3 star", "count": 1840 },
+      { "name": "4 star", "count": 2760 },
+      { "name": "5 star", "count": 3220 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "VPN Secure Plus",
+    "companyName": "Cyber Security Labs",
+    "id": 1022,
+    "description": "Military-grade VPN with unlimited bandwidth and global servers",
+    "size": 89,
+    "reviews": 18700,
+    "ratingAvg": 4.6,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 935 },
+      { "name": "2 star", "count": 1870 },
+      { "name": "3 star", "count": 3740 },
+      { "name": "4 star", "count": 5610 },
+      { "name": "5 star", "count": 6545 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556655848-5c6e6d57d38f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "MathSolver AI",
+    "companyName": "Education Tech Group",
+    "id": 1023,
+    "description": "AI-powered math solver with step-by-step explanations",
+    "size": 234,
+    "reviews": 6800,
+    "ratingAvg": 4.4,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 680 },
+      { "name": "3 star", "count": 1360 },
+      { "name": "4 star", "count": 2040 },
+      { "name": "5 star", "count": 2380 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "HomeBudget Manager",
+    "companyName": "Financial Planning Inc",
+    "id": 1024,
+    "description": "Complete household budget tracking with bill reminders",
+    "size": 178,
+    "reviews": 4500,
+    "ratingAvg": 4.2,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1350 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "PlantCare Guide",
+    "companyName": "Green Thumb Apps",
+    "id": 1025,
+    "description": "Plant identification and care instructions for garden enthusiasts",
+    "size": 267,
+    "reviews": 3200,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 96 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 960 },
+      { "name": "5 star", "count": 1664 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "DrinkWater Reminder",
+    "companyName": "Health Habits Co",
+    "id": 1026,
+    "description": "Smart water intake tracker with personalized hydration goals",
+    "size": 67,
+    "reviews": 15300,
+    "ratingAvg": 4.8,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 306 },
+      { "name": "2 star", "count": 459 },
+      { "name": "3 star", "count": 918 },
+      { "name": "4 star", "count": 2754 },
+      { "name": "5 star", "count": 10863 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "StarGazer Astronomy",
+    "companyName": "Space Science Apps",
+    "id": 1027,
+    "description": "Real-time star map and planetarium for astronomy enthusiasts",
+    "size": 312,
+    "reviews": 2400,
+    "ratingAvg": 4.9,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 24 },
+      { "name": "2 star", "count": 72 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1344 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "VoiceTranslator Pro",
+    "companyName": "Global Communication Tech",
+    "id": 1028,
+    "description": "Real-time voice translation for 100+ languages with offline support",
+    "size": 445,
+    "reviews": 8900,
+    "ratingAvg": 4.3,
+    "downloads": 3800000,
+    "ratings": [
+      { "name": "1 star", "count": 890 },
+      { "name": "2 star", "count": 890 },
+      { "name": "3 star", "count": 1780 },
+      { "name": "4 star", "count": 2670 },
+      { "name": "5 star", "count": 2670 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "Pregnancy Tracker+",
+    "companyName": "Maternal Health Care",
+    "id": 1029,
+    "description": "Week-by-week pregnancy tracking with health tips and kick counter",
+    "size": 198,
+    "reviews": 5600,
+    "ratingAvg": 4.7,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 168 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 560 },
+      { "name": "4 star", "count": 1680 },
+      { "name": "5 star", "count": 2912 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "Car Maintenance Log",
+    "companyName": "Auto Care Solutions",
+    "id": 1030,
+    "description": "Track vehicle maintenance, fuel economy, and service reminders",
+    "size": 145,
+    "reviews": 3800,
+    "ratingAvg": 4.4,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 760 },
+      { "name": "4 star", "count": 1140 },
+      { "name": "5 star", "count": 1330 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "BirdWatcher Guide",
+    "companyName": "Nature Enthusiasts Ltd",
+    "id": 1031,
+    "description": "Bird identification with audio recognition and migration maps",
+    "size": 289,
+    "reviews": 1900,
+    "ratingAvg": 4.6,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 57 },
+      { "name": "2 star", "count": 95 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 570 },
+      { "name": "5 star", "count": 988 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "ExpenseSplit Pro",
+    "companyName": "Group Finance Tools",
+    "id": 1032,
+    "description": "Split bills and expenses with friends with automatic calculations",
+    "size": 123,
+    "reviews": 10200,
+    "ratingAvg": 4.5,
+    "downloads": 4300000,
+    "ratings": [
+      { "name": "1 star", "count": 510 },
+      { "name": "2 star", "count": 1020 },
+      { "name": "3 star", "count": 2040 },
+      { "name": "4 star", "count": 3060 },
+      { "name": "5 star", "count": 3570 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "First Aid Guide",
+    "companyName": "Emergency Response Apps",
+    "id": 1033,
+    "description": "Step-by-step first aid instructions with emergency contact features",
+    "size": 156,
+    "reviews": 7200,
+    "ratingAvg": 4.8,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 144 },
+      { "name": "2 star", "count": 288 },
+      { "name": "3 star", "count": 576 },
+      { "name": "4 star", "count": 1728 },
+      { "name": "5 star", "count": 4464 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "CryptoTracker Pro",
+    "companyName": "Blockchain Analytics",
+    "id": 1034,
+    "description": "Real-time cryptocurrency prices, portfolio tracking, and alerts",
+    "size": 234,
+    "reviews": 14800,
+    "ratingAvg": 4.4,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 888 },
+      { "name": "2 star", "count": 1480 },
+      { "name": "3 star", "count": 2960 },
+      { "name": "4 star", "count": 4440 },
+      { "name": "5 star", "count": 5032 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "YogaDaily Practice",
+    "companyName": "Mind Body Studio",
+    "id": 1035,
+    "description": "Daily yoga routines with video instructions for all skill levels",
+    "size": 278,
+    "reviews": 8300,
+    "ratingAvg": 4.7,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 249 },
+      { "name": "2 star", "count": 415 },
+      { "name": "3 star", "count": 830 },
+      { "name": "4 star", "count": 2490 },
+      { "name": "5 star", "count": 4316 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "title": "Password Vault",
+    "companyName": "Cyber Security Pro",
+    "id": 1036,
+    "description": "Secure password manager with biometric authentication and sync",
+    "size": 134,
+    "reviews": 19600,
+    "ratingAvg": 4.6,
+    "downloads": 6800000,
+    "ratings": [
+      { "name": "1 star", "count": 784 },
+      { "name": "2 star", "count": 1176 },
+      { "name": "3 star", "count": 2352 },
+      { "name": "4 star", "count": 5880 },
+      { "name": "5 star", "count": 9408 }
+    ]
+  }
+]
+  
