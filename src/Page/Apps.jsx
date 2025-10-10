@@ -1,74 +1,78 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import UseApp from '../Hooks/UseApp';
 import AllCard from './AllCard';
-// import { data } from 'react-router';
+import { BeatLoader } from 'react-spinners';
 
 const Apps = () => {
-    let allData = UseApp()
-   //  const { apps = [], loading = false, error = null } = allData;
-    let  { apps, loading, error} = allData
-    
-   
-    let [search,setSearch] = useState('')
-     let term = search.trim().toLocaleLowerCase()
-   //   Searching
+    const { apps, loading: initialLoading } = UseApp();
 
-   let searching = term?
-                apps.filter(data => data.title.toLocaleLowerCase().includes(term)) :
-                 apps
+    const [searching, setSearching] = useState([]);
+    const [search, setSearch] = useState('');
+    const [searchLoading, setSearchLoading] = useState(false);
 
-                 
+    useEffect(() => {
+        if (apps && apps.length > 0) {
+            setSearching(apps);
+        }
+    }, [apps]);
 
-//    if (loading) {
-//     return (
-//       <div className="flex items-center justify-center h-64">
-//         <div className="text-center">
-//           <div className="animate-spin rounded-full h-10 w-10 border-4 border-gray-300 border-t-gray-700 mx-auto mb-3"></div>
-//           <p className="text-sm">Loading apps…</p>
-//         </div>
-//       </div>
-//     );
-//   }
-    return (
-         <>
-         {/* head */}
-         <div className=''>
-            <div className='text-center space-y-2'>
-            <h1 className='text-3xl font-semibold'>Our All Applications</h1>
-         <p className='text-[##627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
-         </div>
+    const handleSearch = (e) => {
+        const term = e.target.value;
+        setSearch(term);
+        setSearchLoading(true);
 
-
-            {/* searching */}
-         <div className='flex justify-between mt-8'>
-            <h1 className='text-xl font-bold'>({searching.length}) Apps Founded</h1>
-              {/* search */}
-         <label className="input validator join-item">
-      
-      <input
-       value={search}
-       onChange={(e)=> setSearch(e.target.value)} type='search'
-        placeholder="All Products" required />
-    </label>
-         </div>
-
-
-
-
-
-
-
-
-         {/* map */}
-         <div className='grid grid-cols-1 md:grid-cols-3 gap-5 lg:grid-cols-4 mt-6'>
-            {
-              searching.map(prev=> <AllCard prev={prev}></AllCard> )
+        setTimeout(() => {
+            if (term.trim() === '') {
+                setSearching(apps);
+            } else {
+                const filtered = apps.filter((app) =>
+                    app.title.toLowerCase().includes(term.toLowerCase())
+                );
+                setSearching(filtered);
             }
-         </div>
-         </div>
-         
-         </>
-        
+            setSearchLoading(false);
+        }, 500);
+    };
+
+    return (
+        <div>
+            <div className="text-center space-y-2">
+                <h1 className="text-3xl font-semibold">Our Applications</h1>
+                <p className="text-[#627382]">Explore all apps developed by us.</p>
+            </div>
+
+            <div className="flex justify-between mt-8">
+                <h1 className="text-xl font-bold">({searching.length}) Apps Found</h1>
+                <label className="input validator join-item">
+                    <input
+                        value={search}
+                        onChange={handleSearch}
+                        type="search"
+                        placeholder="All Products"
+                        required
+                    />
+                </label>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-6">
+                {initialLoading || searchLoading ? (
+                    <div className="col-span-full flex justify-center items-center h-64">
+                        <div className="text-center">
+                            <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-gray-700 mx-auto mb-3"></div>
+                            <BeatLoader />
+                        </div>
+                    </div>
+                ) : searching.length > 0 ? (
+                    searching.map((app) => (
+                        <AllCard key={app.id || app._id || app.title} prev={app} />
+                    ))
+                ) : (
+                    <div className="col-span-full text-center text-gray-500 text-lg mt-10">
+                        <h1 className="text-5xl font-semibold">No Apps Found</h1>
+                    </div>
+                )}
+            </div>
+        </div>
     );
 };
 

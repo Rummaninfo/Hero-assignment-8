@@ -2,6 +2,29 @@ import React, { useEffect, useState } from 'react';
 import { FaStar } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa6";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const Install = () => {
   const [install, setInstall] = useState([]);
   const [sortOrder, setSortOrder] = useState(""); // track selected sort
@@ -10,6 +33,16 @@ const Install = () => {
     let saveList = JSON.parse(localStorage.getItem('install'));
     if (saveList) setInstall(saveList);
   }, []);
+
+
+ let handleRemove = (id)=>{
+         let existingList = JSON.parse(localStorage.getItem('install'))
+         let updateList = existingList.filter(p=> p.id !== id)
+         setInstall(updateList)
+         localStorage.setItem('install', JSON.stringify(updateList))
+ }
+
+
 
   // Function to handle sorting
   const handleSort = (e) => {
@@ -49,7 +82,7 @@ const Install = () => {
               {/* Left side - App Info */}
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <img
+                  <img 
                     src={p.image}
                     alt={p.title}
                     className="w-12 h-12 rounded-lg object-cover"
@@ -77,13 +110,14 @@ const Install = () => {
                 </div>
               </div>
 
-              <button className="text-red-500 hover:text-red-700 font-medium py-2 px-4 rounded">
-                Uninstall
-              </button>
+             <button onClick={()=> handleRemove(p.id)} className="btn text-white btn-success">Unstall</button>
+
             </div>
           </div>
         ))}
       </div>
+
+       
     </>
   );
 };

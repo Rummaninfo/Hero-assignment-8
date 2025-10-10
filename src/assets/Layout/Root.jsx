@@ -9,9 +9,9 @@ import Todo from '../Component/Todo';
 const Root = () => {
     return (
         <div className='flex flex-col min-h-screen'>
+           
             <Navbar></Navbar>
-            
-            <div className='flex-1 w-[90%] mx-auto my-10'>
+            <div className='flex-1 w-[90%] mx-auto   my-10 '>
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>

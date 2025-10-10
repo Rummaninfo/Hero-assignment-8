@@ -8,9 +8,9 @@ const AppsCard = ({prev}) => {
 
     
     return (
-       <div className="card w-full   p-5 hover:scale-110 transition ease-in-out  shadow-xs">
+       <div className="card w-full bg-white  p-3 hover:scale-110 transition ease-in-out  shadow-xl">
   <figure className=''>
-    <img className='h-96 object-fill w-full rounded-3xl '
+    <img className='aspect-w-16   h-72 aspect-h-9 rounded-3xl p-10 '
       src={prev.image}
       alt="Shoes" />
   </figure>
@@ -20,15 +20,15 @@ const AppsCard = ({prev}) => {
 
 
     <div className='flex justify-between mt-2'>
-       <div className='flex gap-2 items-center'>
+       <div className='flex gap-2 bg-green-200 p-2 items-center rounded-xl'>
        <FaDownload />
 
 
         <h4>{prev.downloads}</h4>
        </div>
-       <div className=' gap-2 items-center'>
+       <div className=' gap-2 p-2 bg-[#ff88114f] rounded-xl items-center'>
         {/* card */}
-        <div>
+        <div className='flex gap-2 items-center'>
           <FaStar />
         <h4>{prev.ratingAvg}</h4>
 

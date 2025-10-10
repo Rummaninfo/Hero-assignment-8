@@ -10,6 +10,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
+      <>
               <div>
 <div className="px-4 md:px-8 bg-base-100 shadow-sm">
   <div className="flex items-center justify-between h-16">
@@ -43,18 +44,18 @@ const Navbar = () => {
     {/* --- Center: Main Menu (visible on large screens) --- */}
     <div className="hidden lg:flex">
       <ul className=" font-medium px-1 flex space-x-4">
-        {/* <li><NavLink to="/home"> <FaHome />
- Home</NavLink></li> */}
+     
 
- <NavLink to="/home"> <li className='flex items-center gap-2'> <FaHome />Home</li> </NavLink> 
+ <NavLink className={({ isActive }) => isActive ? "active" : ""}
+ to="/home"> <li className='flex items-center gap-2'> <FaHome />Home</li> </NavLink> 
 
-        {/* <li><NavLink to="/apps"> <FaAppStore />
- Apps</NavLink></li> */}
-           <NavLink to="/apps"> <li className='flex items-center gap-2'> <FaAppStore />  Apps</li> </NavLink>  
+    
+           <NavLink className={({ isActive }) => isActive ? "active" : ""}
+ to="/apps"> <li className='flex items-center gap-2'> <FaAppStore />  Apps</li> </NavLink>  
         
-        {/* <li><NavLink > 
- Install</NavLink></li> */}
-            <NavLink to="/install"> <li className='flex items-center gap-2'> <span><MdOutlineInstallDesktop /></span>  Install</li> </NavLink>
+  
+            <NavLink className={({ isActive }) => isActive ? "active" : ""}
+ to="/install"> <li className='flex items-center gap-2'> <span><MdOutlineInstallDesktop /></span>  Install</li> </NavLink>
 
       </ul>
     </div>
@@ -72,6 +73,11 @@ const Navbar = () => {
 
             
         </div>
+        </>
+
+     
+
+
     );
 };
 
