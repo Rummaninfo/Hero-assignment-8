@@ -47,7 +47,7 @@ const Apps = () => {
                   <hr  />
                  </div>
                  
-                <label className="input validator join-item">
+                <label className="input validator  w-auto join-item">
                     <input
                         value={search}
                         onChange={handleSearch}
