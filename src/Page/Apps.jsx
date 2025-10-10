@@ -41,11 +41,14 @@ const Apps = () => {
                 <p className="text-[#627382]">Explore all apps developed by us.</p>
             </div>
 
-            <div className="flex justify-between mt-8">
-                <div>
-                    <h1 className="text-xl font-bold">({searching.length}) Apps Found</h1>
-                  <hr  />
-                 </div>
+            <div className="flex justify-between items-center mt-8">
+               
+                   <div>
+                     <h1 className="text-auto md:text-xl font-bold">({searching.length}) Apps Found</h1>
+                     <hr className='w-auto' />
+                   </div>
+                 
+                 
                  
                 <label className="input validator  w-auto join-item">
                     <input
