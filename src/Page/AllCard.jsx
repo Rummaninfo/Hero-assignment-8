@@ -7,7 +7,7 @@ const AllCard = ({prev}) => {
     return (
                <Link to={`/appsDetails/${prev.id}`}>
                
-               <div className="card w-full bg-gray-100   p-3 hover:scale-110 transition ease-in-out  shadow-xs">
+               <div className="card w-full bg-gray-100 border-1   p-3 hover:scale-110 transition ease-in-out  shadow-xs">
           <figure className='bg-white'>
             <img className='aspect-w-16   h-72 aspect-h-9 rounded-3xl p-10 '
               src={prev.image}

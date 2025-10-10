@@ -37,7 +37,7 @@ const Navbar = () => {
       {/* Logo */}
       <Link to="/home" className="flex items-center space-x-2 text-xl">
         <img src={hero} alt="Home Decor Logo" className="w-12 h-12 object-contain" />
-        <span className="font-semibold">HERO.IO</span>
+        <span className="font-semibold text-blue-800">HERO.IO</span>
       </Link>
     </div>
 

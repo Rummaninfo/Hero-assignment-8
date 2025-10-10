@@ -5,7 +5,7 @@ import playstore from "../img/playstore.png"
 const Banner = () => {
     return (
         <div className='mt-8 '>
-           <div className='text-center space-y-3'>
+           <div className='text-center space-y-5'>
              <h1 className='text-6xl font-bold'>We Build <br />
 <span className='text-[#9F62F2]'>Productive</span> Apps
 </h1>

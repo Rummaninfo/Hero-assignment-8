@@ -6,7 +6,7 @@ import Banner from '../assets/Component/Banner';
 import Todo from '../assets/Component/Todo';
 import Navbar from '../assets/Component/Navbar';
 import Loading from './AppsDetail/Loading';
-import { ClockLoader, MoonLoader } from 'react-spinners';
+import { BeatLoader, ClockLoader, MoonLoader } from 'react-spinners';
 
 // import hero from "../img/hero.png"
 
@@ -15,7 +15,7 @@ const Home = () => {
     let { apps, loading, error} = UseApp()
     console.log(apps)
 
-    let dataSlice = apps.slice(0,10)
+    let dataSlice = apps.slice(0,8)
 
     return (
 
@@ -45,7 +45,10 @@ const Home = () => {
            <div className='mt-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5'>
            {
             // dataSlice.map((prev,index) => <AppsCard key={index} prev={prev}></AppsCard> )
-            loading? (    (  <div className='flex justify-center text-center items-center'><MoonLoader /> </div>
+            loading? (    (  <div className="text-center">
+                            <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-gray-700 mx-auto mb-3"></div>
+                            <BeatLoader />
+                        </div>
 )
  ):
             (

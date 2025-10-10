@@ -17,6 +17,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { toast, ToastContainer } from 'react-toastify';
+import { BeatLoader } from 'react-spinners';
 
 const AppsDetails = () => {
   let { id } = useParams();
@@ -60,7 +61,10 @@ console.log(singleData)
     }))
     ?.reverse() || [];
 
-  if (loading) return <p>loading.....</p>;
+  if (loading) return <div className="text-center">
+                            <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-gray-700 mx-auto mb-3"></div>
+                            <BeatLoader />
+                        </div>
   if (!singleData) return <p>No data found</p>;
 
   return (
@@ -76,8 +80,8 @@ console.log(singleData)
         </figure>
         
         <div className="flex flex-col flex-1">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800">{singleData.companyName}</h2>
-          <p className="text-gray-600 mt-1">{singleData.title}</p>
+          <h2 className="text-xl md:text-2xl font-bold text-gray-800">{singleData.title}</h2>
+          <p className="text-gray-600 mt-1 font-semibold">Company Name: {singleData.companyName}</p>
           
           <hr className="w-full border-t border-gray-300 my-4" />
           
