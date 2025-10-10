@@ -42,7 +42,11 @@ const Apps = () => {
             </div>
 
             <div className="flex justify-between mt-8">
-                <h1 className="text-xl font-bold">({searching.length}) Apps Found</h1>
+                <div>
+                    <h1 className="text-xl font-bold">({searching.length}) Apps Found</h1>
+                  <hr  />
+                 </div>
+                 
                 <label className="input validator join-item">
                     <input
                         value={search}

@@ -192,8 +192,8 @@ console.log(singleData)
 
       <hr className='w-full mt-8 border-gray-300' />
 
-      <div>
-        <h4>Description:  </h4>
+      <div className='mt-5'>
+        <h4 className='text-2xl font-semibold'>Description:  </h4>
         
           <p className='pt-6 text-xl text-[##627382]'>{singleData.description}</p>
         

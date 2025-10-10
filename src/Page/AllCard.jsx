@@ -18,17 +18,17 @@ const AllCard = ({prev}) => {
         
         
          <div className='flex justify-between mt-2'>
-               <div className='flex gap-2 bg-green-200 p-2 items-center rounded-xl'>
+               <div className='flex gap-2 bg-green-50  p-2 items-center rounded-xl'>
                <FaDownload />
         
         
-                <h4>{prev.downloads}</h4>
+                <h4 className='text-[#00D390] font-semibold'>{prev.downloads}</h4>
                </div>
-               <div className=' gap-2 p-2 bg-[#ff88114f] rounded-xl items-center'>
+               <div className=' gap-2 p-2 bg-[#FFE8CC] rounded-xl items-center'>
                 {/* card */}
-                <div className='flex gap-2 items-center'>
+                <div className='flex text-[#FF8811] gap-2 items-center'>
                   <FaStar />
-                <h4>{prev.ratingAvg}</h4>
+                <h4 className='font-semibold'>{prev.ratingAvg}</h4>
         
                 
                 </div>

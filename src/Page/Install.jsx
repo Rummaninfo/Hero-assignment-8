@@ -1,27 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaStar } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa6";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { toast, ToastContainer } from 'react-toastify';
 
 
 
@@ -36,10 +16,15 @@ const Install = () => {
 
 
  let handleRemove = (id)=>{
+    toast("Unstall froom your device");
+    // alert('ok')
+   
          let existingList = JSON.parse(localStorage.getItem('install'))
          let updateList = existingList.filter(p=> p.id !== id)
          setInstall(updateList)
+        
          localStorage.setItem('install', JSON.stringify(updateList))
+       
  }
 
 
@@ -51,18 +36,25 @@ const Install = () => {
 
     let sortedList = [...install];
     if (value === "High size") {
-      sortedList.sort((a, b) => b.size - a.size); // des
+      sortedList.sort((a, b) => b.downloads - a.downloads); // des
     } else if (value === "Low size") {
-      sortedList.sort((a, b) => a.size - b.size); // asc
+      sortedList.sort((a, b) => a.downloads - b.downloads); // asc
     }
     setInstall(sortedList);
   };
 
   return (
     <>
-      <div>
+
+     <div className='text-center space-y-2'>
+          <h1 className='text-4xl font-bold'>Your Installed Apps</h1>
+          <p className='text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
+     </div>
+
+
+      <div className='mt-5'>
         <div className='flex justify-between font-bold text-3xl'>
-          <h1>Install {install.length}</h1>
+          <h3>Install Apps {install.length}</h3>
           <select
             value={sortOrder}
             onChange={handleSort}
@@ -76,6 +68,7 @@ const Install = () => {
       </div>
 
       <div>
+          <ToastContainer />
         {install.map(p => (
           <div key={p.id} className="bg-white mt-4 rounded-lg border border-gray-300 w-full">
             <div className="flex items-center justify-between p-4">
@@ -94,6 +87,8 @@ const Install = () => {
                   <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-700 rounded-lg flex items-center justify-center hidden">
                     <span className="text-white font-bold text-xl">🌲</span>
                   </div>
+                         
+
                 </div>
 
                 <div>

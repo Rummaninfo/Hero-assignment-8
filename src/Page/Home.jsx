@@ -37,7 +37,7 @@ const Home = () => {
 
 
         <div className='mt-10 '>
-           <div className='text-center'>
+           <div className='text-center space-y-2'>
              <h1 className='text-3xl font-semibold'>Trending Apps</h1>
             <p className='text-lg text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
            </div>
@@ -56,7 +56,7 @@ const Home = () => {
            }
            </div>
              <div className='mt-5 flex justify-center '>
-                <Link to='/apps'><button class="btn btn-primary">Sell All</button></Link>
+                <Link to='/apps'><button class="btn border-0 btn-primary bg-gradient-to-r from-blue-500 to-purple-500">Show All</button></Link>
 
              </div>
 

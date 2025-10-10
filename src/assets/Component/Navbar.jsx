@@ -62,7 +62,7 @@ const Navbar = () => {
 
     {/* --- Right: Button --- */}
     <div>
-      <NavLink to="/products" className="btn">
+      <NavLink  to="/products" onClick={()=> window.open('https://github.com/Rummaninfo/Hero-assignment-8')} className="btn bg-gradient-to-r from-blue-500 to-purple-500">
       <FaGithub />
 
         Contribute

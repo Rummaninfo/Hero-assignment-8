@@ -6,7 +6,7 @@ const Todo = () => {
            <div className='flex justify-center mt-10 '>
             <img src={hero} alt="" /> 
            </div>
-           <div className='bg-[#632EE3] py-14 text-white b'>
+           <div className='bg-gradient-to-r from-blue-500 to-purple-500 py-14 text-white b'>
              <h1 className='text-center text-4xl'>Trusted by Millions, Built for You</h1>
              <div className='grid grid-cols-1   md:grid-cols-3 text-center justify-around pt-8'>
                 <div className='space-y-2'>
