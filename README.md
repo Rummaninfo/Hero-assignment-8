@@ -1,16 +1,77 @@
-# React + Vite
+# 📱 App Store UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **App Store-style web application** where users can browse apps, view details, check ratings, and install with a click.  
+Built with **React, Tailwind CSS, React Router, Recharts, Toastify & Axios**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 https://hero-oi-project.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🖼️ Screenshot
+![App Screenshot](https://your-screenshot-link.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📝 Overview
+
+This project is a clean and intuitive **App Store interface** where users can:
+
+- Browse a list of apps  
+- Open a full app details page  
+- View ratings and analytics charts  
+- Install apps (with “Already Installed” state)  
+- Get instant feedback via toast notifications  
+- Use the app comfortably on mobile, tablet and desktop (responsive design)
+
+---
+
+## ⭐ Features
+
+- 📱 App listing with image, title, size & short info  
+- ℹ️ Details page with description, rating, chart & extra info  
+- 🟢 Install button that changes to **Already Installed** after install  
+- 📊 Rating / analytics visualization using **Recharts**  
+- 🔔 Toast messages using **React Toastify**  
+- 🔄 Page navigation using **React Router**  
+- 🎨 Fully responsive UI built with **Tailwind CSS**  
+- ⚡ Fast development experience using **Vite**  
+- ♻️ Custom hook for loading app data  
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React  
+- Tailwind CSS  
+- React Router  
+- React Icons  
+- React Spinners  
+- React Toastify  
+- Recharts  
+
+**Build Tool:**
+- Vite  
+- @tailwindcss/vite  
+
+**Utility:**
+- Axios  
+
+---
+
+## 📦 Dependencies
+
+```json
+"@tailwindcss/vite": "^4.1.14",
+"axios": "^1.12.2",
+"react": "^19.1.1",
+"react-dom": "^19.1.1",
+"react-icons": "^5.5.0",
+"react-router": "^7.9.3",
+"react-spinners": "^0.17.0",
+"react-toastify": "^11.0.5",
+"recharts": "^3.2.1",
+"tailwindcss": "^4.1.14"
